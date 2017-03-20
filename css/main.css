@@ -1,0 +1,44 @@
+html {
+    font-size: 62.5%;
+}
+
+.main {
+    position: relative;
+    top: 30px;
+}
+
+footer {
+    text-align: center;
+}
+
+section {
+    margin-top: 10px;
+    /*border: solid red 1px;*/
+}
+
+section .anchor {
+    position: relative;
+    top: -50px;
+}
+
+section.header {
+    background-image: url("/images/header.png");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+section.header h2 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3em;
+    position: relative;
+    top: 25%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section.header .services {
+    position: relative;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+}
