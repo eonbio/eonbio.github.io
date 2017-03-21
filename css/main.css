@@ -2,6 +2,11 @@ html {
     font-size: 62.5%;
 }
 
+.navbar,
+.navbar.navbar-default {
+    opacity: 0.8;
+}
+
 .main {
     position: relative;
     top: 30px;
@@ -18,7 +23,7 @@ section {
 
 section .anchor {
     position: relative;
-    top: -50px;
+    top: -70px;
 }
 
 section.header {
@@ -41,4 +46,53 @@ section.header .services {
     top: 40%;
     display: flex;
     justify-content: center;
+}
+
+section h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+
+/*section ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+section li {
+    width: 25%;
+    margin: auto;
+}*/
+
+.whyus h2,
+.manuscriptediting h2,
+.bioinformatics h2,
+.price h2,
+.contactus h2 {
+    margin-top: 50px;
+}
+
+.whyus ul {
+    list-style: none;
+    margin: 100px 0;
+}
+
+.whyus li i {
+    font-size: 8em;
+    color: #009688;
+}
+
+.whyus li .list-header {
+    font-size: 2em;
+    font-weight: 500;
+    text-transform: capitalize;
+    min-height: 3em;
+}
+
+.whyus li .list-content {
+    font-size: 1.5em;
 }
