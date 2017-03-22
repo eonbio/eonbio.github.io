@@ -86,7 +86,8 @@ section h2 {
 
 .manuscriptediting,
 .bioinformatics,
-.price {
+.price,
+.contactus {
     margin: 0 40px;
 }
 
@@ -164,4 +165,13 @@ ul.bio-content {
 .price .tier-price {
     font-size: 3em;
     text-align: center;
+    font-weight: 400;
+}
+
+.price .note {
+    font-size: .5em;
+}
+
+.contactus form {
+    margin: 10px 0;
 }
