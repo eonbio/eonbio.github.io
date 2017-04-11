@@ -13,16 +13,18 @@ $(function() {
             type: "POST",
             url: 'https://mailgun.azurewebsites.net/api/enobio?code=d6AS5KrOTLoEbvv52t4CYBkAeqCwJCNB/fFVRJD6GD5UAqA9RBaf5A==',
             data: JSON.stringify(msg),
+
             contentType: "application/json; charset=utf-8",
-            dataType: "json",
-            success: function(data) {
-                alert(data);
-            },
-            failure: function(errMsg) {
-                alert(errMsg);
+            dataType: "json"
+        }).done(function() {
+            $('#emailMessage').text('Your email is on its way to us');
+        }).fail(function(err) {
+            if (err.status === 200) {
+                $('#emailMessage').text('Your email is on its way to us');
+            } else {
+                $('#emailMessage').text('Opps, something is wrong. You can click the email icon bellow to contact us. ');
             }
         });
-
     });
 });
 
