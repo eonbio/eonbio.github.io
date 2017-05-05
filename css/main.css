@@ -7,6 +7,11 @@ html {
     opacity: 0.8;
 }
 
+.logo {
+    width: 50px;
+    height: 33px;
+}
+
 .main {
     position: relative;
     top: 30px;
@@ -37,8 +42,9 @@ section.header h2 {
     font-size: 3em;
     position: relative;
     top: 25%;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: inherit;
+    font-weight: bold;
 }
 
 section.header .services {
@@ -81,7 +87,7 @@ section h2 {
 }
 
 .whyus li .list-content {
-    font-size: 1em;
+    font-size: 1.4em;
 }
 
 .manuscriptediting,
@@ -97,7 +103,7 @@ section h2 {
 }
 
 .manuscriptediting .quotas q {
-    font-size: .8em;
+    font-size: 1.2em;
     font-weight: 400;
 }
 
@@ -162,6 +168,14 @@ ul.bio-content {
     min-height: 150px;
 }
 
+.tier .tier-features ul {
+    width: 95%;
+}
+
+.tier .tier-features li {
+    font-size: 1.3em;
+}
+
 .price .tier-price {
     font-size: 3em;
     text-align: center;
@@ -169,9 +183,42 @@ ul.bio-content {
 }
 
 .price .note {
-    font-size: .5em;
+    font-size: 1em;
 }
 
 .contactus form {
     margin: 10px 0;
+}
+
+.btn.btn-lg {
+    font-size: 25px;
+}
+
+.testimonials {
+    height: 100%;
+}
+
+.slide {
+    height: 100%;
+}
+
+.avatar-container {
+    text-align: center;
+}
+
+blockquote.style1 {
+    font: 2em italic Times, serif;
+    padding: 8px;
+    margin: 5px;
+    background-image: url(/images/openquote1.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+    text-indent: 23px;
+}
+
+blockquote.style1 span {
+    display: block;
+    background-image: url(/images/closequote1.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }

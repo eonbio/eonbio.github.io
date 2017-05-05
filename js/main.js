@@ -35,6 +35,7 @@ $(window).resize(function() {
 setInterval(function() {
     var winWidth = $(window).width();
     if (winWidth < 1000) {
-        $("section").height('auto')
+        $("section").height('auto');
+        $(".slide").height('auto');
     }
 }, 250);
