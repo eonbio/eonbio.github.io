@@ -41,7 +41,6 @@ section.header h2 {
     font-family: 'Catamaran', sans-serif;
     font-size: 3em;
     position: relative;
-    top: 25%;
     text-align: center;
     text-transform: inherit;
     font-weight: bold;
@@ -49,7 +48,6 @@ section.header h2 {
 
 section.header .services {
     position: relative;
-    top: 40%;
     display: flex;
     justify-content: center;
 }
