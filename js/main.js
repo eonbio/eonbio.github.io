@@ -34,7 +34,7 @@ $(window).resize(function() {
 
 setInterval(function() {
     var winWidth = $(window).width();
-    if (winWidth < 1000) {
+    if (winWidth < 1000 && $("section").width()!== winWidth) {
         $("section").height('auto');
         $(".slide").height('auto');
     }
