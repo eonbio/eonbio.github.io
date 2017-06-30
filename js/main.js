@@ -28,14 +28,19 @@ $(function() {
     });
 });
 
-$(window).resize(function() {
-    $("section").height($(window).height() - 100);
+
+
+$(window).resize(function () {
+    var winWidth = $(window).width();
+    if (winWidth > 1000) {
+        $("section").height($(window).height() - 100);
+    }
 })
 
 setInterval(function() {
     var winWidth = $(window).width();
     if (winWidth < 1000 && $("section").width()!== winWidth) {
-        $("section").height('auto');
-        $(".slide").height('auto');
+        $("section").attr('style', '');
+        $(".slide").attr('style', '');
     }
 }, 250);
