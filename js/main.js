@@ -34,6 +34,9 @@ $(window).resize(function () {
     var winWidth = $(window).width();
     if (winWidth > 1000) {
         $("section").height($(window).height() - 100);
+    } else {
+            $("section").height('auto')
+        $(".slide").height('auto')
     }
 })
 
