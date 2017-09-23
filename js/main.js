@@ -11,7 +11,7 @@ $(function() {
 
         $.ajax({
             type: "POST",
-            url: 'https://mailgun.azurewebsites.net/api/enobio?code=d6AS5KrOTLoEbvv52t4CYBkAeqCwJCNB/fFVRJD6GD5UAqA9RBaf5A==',
+            url: 'https://zhmail.azurewebsites.net/api/eonbioEmail?code=LPYF6nsaMUa4lf1Tik8RW0aak2bs3zsbbUWQprJ/jm9XzYo/JhSLXw==',
             data: JSON.stringify(msg),
 
             contentType: "application/json; charset=utf-8",
