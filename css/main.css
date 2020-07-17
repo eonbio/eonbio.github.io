@@ -11,10 +11,17 @@ html {
     width: 50px;
     height: 33px;
 }
+.announcement-bar{
+    position: relative;
+top: 58px;
+font-size: 36px;
+text-align: center;
+font-weight: 100;
+}
 
 .main {
     position: relative;
-    top: 30px;
+    top:50px;
 }
 
 footer {
